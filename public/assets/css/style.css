@@ -958,15 +958,19 @@ a.t-icon span {
 /*--//team--*/
 /*-- pricing grids --*/
 .pricing-grids .padding {
-    background: #fff;
-    border: 6px solid #f6f6f6;
+    background: rgb(172, 150, 150);
+    border: 6px solid #ffc0cb;
     padding: 2em 2em;
     position: relative;
-	
 }
+
+.pricing-title {
+    color: #FFC0CB;
+}
+
 .padding h3 {
     margin: 1em 0;
-    color: #ffc905;
+    color: #FFC0CB;
     font-weight: 400;
 }
 .border-dot {
@@ -977,10 +981,11 @@ a.t-icon span {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #fff
 }
 .menu-item-price h6 {
     font-size: 18px;
-    color: #323648;
+    color: #fff;
     letter-spacing: 1px;
 }
 .menu-item-description p {
@@ -1070,7 +1075,7 @@ h4.leave-w3ls {
 .single-w3pvt-page img {
     border-radius: 4px;
     -webkit-border-radius: 4px;
-    -o- border-radius: 4px;
+    /* -o- border-radius: 4px; */
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
 }

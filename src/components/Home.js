@@ -270,22 +270,22 @@ class Home extends Component {
 	// <!-- pricing -->  */}
         <section class="pricing py-5">
           <div class="container py-md-5">
-            <h3 class="heading text-capitalize text-center mb-3 mb-sm-5">
+            <h3 class="heading text-capitalize text-center mb-3 mb-sm-5 pricing-title">
               {" "}
               Our Pricing
             </h3>
             <div class="row pricing-grids">
               <div class="col-lg-6  mb-lg-0 mb-5">
                 <div class="padding">
-                  <h3>PRICES FOR MUSTACHE TRIMMING</h3>
+                  <h3 class="pricing-tags">KNOTLESS</h3>
                   {/* <!-- Item starts --> */}
                   <div class="menu-item">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Trim your Mustaches style 1</h6>
+                        <h6>Waist length (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$7</h6>
+                        <h6>$200</h6>
                       </div>
                     </div>
                   </div>
@@ -294,10 +294,10 @@ class Home extends Component {
                   <div class="menu-item my-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Trim your Mustaches style 2</h6>
+                        <h6>Waist length (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$10</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
@@ -306,10 +306,10 @@ class Home extends Component {
                   <div class="menu-item">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Trim your Mustaches style 3</h6>
+                        <h6>Waist length (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$15</h6>
+                        <h6>$180</h6>
                       </div>
                     </div>
                   </div>
@@ -318,10 +318,10 @@ class Home extends Component {
                   <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Trim your Mustaches style 4</h6>
+                        <h6>Waist length (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$15</h6>
+                        <h6>$160</h6>
                       </div>
                     </div>
                   </div>
@@ -330,10 +330,10 @@ class Home extends Component {
                   <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Trim your Mustaches style 5</h6>
+                        <h6>Buttlength (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$20</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
@@ -342,10 +342,230 @@ class Home extends Component {
                   <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Trim your Mustaches style 6</h6>
+                        <h6>Buttlength (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$25</h6>
+                        <h6>$260</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Buttlength (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$200</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Buttlength (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$180</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Kneelength (smedium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$300</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Kneelength (small)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$320</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Kneelength (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$260</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Kneelength (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$230</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>hiplength (smedium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$280</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>hiplength (small)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$300</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>hiplength (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$240</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>hiplength (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$220</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>crisscross Knotless (smedium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$240</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>crisscross Knotless (small)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$260</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>crisscross Knotless (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$220</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>crisscross Knotless (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$200</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids buttlength (smedium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$220</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids buttlength (small)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$240</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids buttlength (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$200</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids buttlength (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$180</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids waist length (smedium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$200</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids waist length (small)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$220</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids waist length (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$180</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>box braids waist length (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$160</h6>
                       </div>
                     </div>
                   </div>
@@ -354,15 +574,15 @@ class Home extends Component {
               </div>
               <div class="col-lg-6  mb-lg-0 mb-5">
                 <div class="padding">
-                  <h3>HAIR AND BEARD CUT PRICES</h3>
+                  <h3 class="pricing-tags">Boys</h3>
                   {/* <!-- Item starts --> */}
                   <div class="menu-item">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Dye your hair and beard 1</h6>
+                        <h6>Twists</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$27</h6>
+                        <h6>$60</h6>
                       </div>
                     </div>
                   </div>
@@ -371,10 +591,10 @@ class Home extends Component {
                   <div class="menu-item my-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Dye your hair and beard 2</h6>
+                        <h6>Travis Scott Braids</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$21</h6>
+                        <h6>$70</h6>
                       </div>
                     </div>
                   </div>
@@ -383,10 +603,10 @@ class Home extends Component {
                   <div class="menu-item">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Dye your hair and beard 3</h6>
+                        <h6>Cornrows (regular)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$25</h6>
+                        <h6>$60</h6>
                       </div>
                     </div>
                   </div>
@@ -395,10 +615,52 @@ class Home extends Component {
                   <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Dye your hair and beard 4</h6>
+                        <h6>retwist</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$28</h6>
+                        <h6>$60</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+                  {/* <!-- Item ends --> */}
+                </div>
+              </div>
+              <div class="col-lg-6  mb-lg-0 mb-5">
+                <div class="padding">
+                  <h3 class="pricing-tags">Twists</h3>
+                  {/* <!-- Item starts --> */}
+                  <div class="menu-item">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Marleytwists (smedium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$200</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+					<!-- Item starts --> */}
+                  <div class="menu-item my-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Marleytwists (small)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$220</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+					<!-- Item starts --> */}
+                  <div class="menu-item">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Marleytwists (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$180</h6>
                       </div>
                     </div>
                   </div>
@@ -407,7 +669,140 @@ class Home extends Component {
                   <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Dye your hair and beard 5</h6>
+                        <h6>Marleytwists (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$160</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Springtwists (smedium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$160</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Springtwists (small)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$180</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Springtwists (medium)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$120</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Springtwists (large)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$100</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+                  {/* <!-- Item ends --> */}
+                </div>
+              </div>
+              <div class="col-lg-6  mb-lg-0 mb-5">
+                <div class="padding">
+                  <h3 class="pricing-tags">Other</h3>
+                  {/* <!-- Item starts --> */}
+                  <div class="menu-item">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Coi leray braids</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$120</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+					<!-- Item starts --> */}
+                  <div class="menu-item my-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Braided knotless bob (beads)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$180</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+					<!-- Item starts --> */}
+                  <div class="menu-item">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Braided box braids bob (heads)</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$160</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+					<!-- Item starts --> */}
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Freestyle</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>call 832 406 5901</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Extended faux loes</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$180</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Crisscross extended faux loes</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$200</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+                  {/* <!-- Item ends --> */}
+                </div>
+              </div>
+
+              <div class="col-lg-6  mb-lg-0 mb-5">
+                <div class="padding">
+                  <h3 class="pricing-tags">Extras</h3>
+                  {/* <!-- Item starts --> */}
+                  <div class="menu-item">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Adding hair (boys)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
                         <h6>$30</h6>
@@ -416,16 +811,61 @@ class Home extends Component {
                   </div>
                   {/* <!-- Item ends -->
 					<!-- Item starts --> */}
-                  <div class="menu-item mt-4">
+                  <div class="menu-item my-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Dye your hair and beard 6</h6>
+                        <h6>Adding beads</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$35</h6>
+                        <h6>$40</h6>
                       </div>
                     </div>
                   </div>
+                  {/* <!-- Item ends -->
+					<!-- Item starts --> */}
+                  <div class="menu-item">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>hearts</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$10</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
+					<!-- Item starts --> */}
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Triangle parts</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$60</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Blow dry</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$30</h6>
+                      </div>
+                    </div>
+                  </div>
+				  <div class="menu-item mt-4">
+                    <div class="row border-dot no-gutters">
+                      <div class="col-8 menu-item-name">
+                        <h6>Color mix</h6>
+                      </div>
+                      <div class="col-4 menu-item-price text-right">
+                        <h6>$40</h6>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <!-- Item ends -->
                   {/* <!-- Item ends --> */}
                 </div>
               </div>
@@ -438,10 +878,9 @@ class Home extends Component {
           <div class="container py-md-5">
             <div class="test-info text-center">
               <h3 class="tittle order mb-3">
-                <span class="mb-3">CLICK BELOW TO BOOK AN APPOINTMENT</span>Getting you the
-                best hair do is our main priority.
+                <span class="mb-3">CLICK BELOW TO BOOK AN APPOINTMENT</span>
+                Getting you the best hair do is our main priority.
               </h3>
-              
 
               <div class="read-more mx-auto m-0 text-center">
                 <Link to="/contact" class="read-more scroll btn">
