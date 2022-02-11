@@ -5,7 +5,6 @@ class Home extends Component {
   render() {
     return (
       <div>
-        //{" "}
         {/* <!-- //header -->
 // <!-- banner --> */}
         <div class="banner_w3lspvt" id="home">
@@ -31,7 +30,7 @@ class Home extends Component {
                         </p>
 
                         <Link to="/contact" class="btn">
-                          Get appointment
+                          Book appointment
                         </Link>
                       </div>
                     </div>
@@ -112,162 +111,10 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        //{" "}
-        {/* <!-- //banner -->
-//  <!-- banner bottom grids --> */}
-        {/* <section class="content-info py-5" id="about">
-          <div class="container py-md-5">
-            <h3 class="heading text-center mb-3 mb-sm-5">About us</h3>
 
-            <div class="info-w3pvt-mid text-center px-lg-5">
-              <div class="title-desc text-center px-lg-5">
-                <img
-                  src="assets/images/about1.png"
-                  alt="news image"
-                  class="img-fluid"
-                />
-                <p class="px-lg-5">
-                  Praesent ullamcorper dui turpis.At vero eos et accusam et
-                  justo duo dolores et ea rebum.Integer sit amet mattis quam,
-                  sit amet ultricies velit. Praesent ullamcorper dui turpis.
-                  Praesent ullamcorper dui turpis.At vero eos et accusam et
-                  justo duo dolores et ea rebum.Integer sit amet mattis quam,
-                  sit amet ultricies velit. Praesent ullamcorper dui turpis.
-                </p>
 
-                <Link
-                  to="/services"
-                  class="btn mt-lg-4 mt-3 read scroll"
-                  role="button"
-                >
-                  Learn More
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        //{" "}
-        {/* <!-- //banner bottom grids -->
-
-//  <!-- /services --> */}
-        {/* <section class="services py-5" id="services">
-          <div class="container py-md-5">
-            <h3 class="heading text-center mb-3 mb-sm-5">Services</h3>
-            <div class="row ab-info">
-              <div class="col-md-6 ab-content ab-content1">
-                <div class="ab-content-inner">
-                  <Link to="/single">
-                    <img
-                      src="assets/images/services2.jpg"
-                      alt="news image"
-                      class="img-fluid"
-                    />
-                  </Link>
-                  <div class="ab-info-con">
-                    <h4> Trim your Hair</h4>
-                    <Link
-                      to="/single"
-                      class="read-more two btn m-0 px-3"
-                      role="button"
-                    >
-                      <span class="fa fa-arrow-circle-o-right"> </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 ab-content ab-content1">
-                <div class="ab-content-inner">
-                  <Link to="/single">
-                    <img
-                      src="assets/images/services1.jpg"
-                      alt="news image"
-                      class="img-fluid"
-                    />
-                  </Link>
-                  <div class="ab-info-con">
-                    <h4>Trim your Beard</h4>
-                    <a href="single.html" class="read-more two btn m-0 px-3">
-                      <span class="fa fa-arrow-circle-o-right"> </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row ab-info second mt-lg-4">
-              <div class="col-md-3 ab-content">
-                <div class="ab-content-inner">
-                  <Link to="/single">
-                    <img
-                      src="assets/images/ser3.jpg"
-                      alt="news image"
-                      class="img-fluid"
-                    />
-                  </Link>
-                  <div class="ab-info-con">
-                    <h4>colouring</h4>
-                    <a href="single.html" class="read-more two btn m-0 px-3">
-                      <span class="fa fa-arrow-circle-o-right"> </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 ab-content">
-                <div class="ab-content-inner">
-                  <Link to="/single">
-                    <img
-                      src="assets/images/ser4.jpg"
-                      alt="news image"
-                      class="img-fluid"
-                    />
-                  </Link>
-                  <div class="ab-info-con">
-                    <h4>Bathing</h4>
-                    <a href="single.html" class="read-more two btn m-0 px-3">
-                      <span class="fa fa-arrow-circle-o-right"> </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 ab-content">
-                <div class="ab-content-inner">
-                  <Link to="/single">
-                    <img
-                      src="assets/images/ser5.jpg"
-                      alt="news image"
-                      class="img-fluid"
-                    />
-                  </Link>
-                  <div class="ab-info-con">
-                    <h4>drying</h4>
-                    <a href="single.html" class="read-more two btn m-0 px-3">
-                      <span class="fa fa-arrow-circle-o-right"> </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 ab-content">
-                <div class="ab-content-inner">
-                  <Link to="/single">
-                    <img
-                      src="assets/images/ser6.jpg"
-                      alt="news image"
-                      class="img-fluid"
-                    />
-                  </Link>
-                  <div class="ab-info-con">
-                    <h4>Creams</h4>
-                    <a href="single.html" class="read-more two btn m-0 px-3">
-                      <span class="fa fa-arrow-circle-o-right"> </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* // <!-- /services -->
  
-	// <!-- pricing -->  */}
+	{/* <!-- pricing -->  */}
         <section class="pricing py-5">
           <div class="container py-md-5">
             <h3 class="heading text-capitalize text-center mb-3 mb-sm-5 pricing-title">

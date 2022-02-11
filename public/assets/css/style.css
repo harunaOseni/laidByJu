@@ -106,8 +106,8 @@ a.navbar-brand {
     margin: 0 13em;
 }
 .banner-text a {
-  background-color: #ffc905;
-    border-color: #ffc905;
+  background-color: #FFC0CB;
+    border-color: #FFC0CB;
     color: #000;
     padding: 0.8em 2em;
     border-radius: 4px;
@@ -154,7 +154,7 @@ p.sub-para {
     margin-top: 1em;
 }
 
-/* //text slider */
+/* text slider */
 
 .bs-slider-overlay {
     width: 100%;
@@ -194,21 +194,21 @@ h4.agile-title,h1.agile-title,h2.agile-title {
 }
 
 .csslider>ul>li:first-child {
-    background: url(../images/ban1.jpg) no-repeat center;
+    background: url(https://s.hdnux.com/photos/01/16/31/00/20549634/3/rawImage.jpg) no-repeat center;
     background-size: cover;
 }
 
 .csslider>ul>li:nth-child(2) {
-    background: url(../images/ban2.jpg) no-repeat center;
+    background: url(https://media.istockphoto.com/photos/african-female-beauty-with-braided-hair-picture-id685878718?k=20&m=685878718&s=612x612&w=0&h=PTW0BjrmvoX121AjHbOmJ05ogSR0DKZ2Mjeq06aDciY=) no-repeat center;
     background-size: cover;
 }
 
 .csslider>ul>li:nth-child(3) {
-    background: url(../images/ban3.jpg) no-repeat center;
+    background: url(https://media.istockphoto.com/photos/young-african-man-from-sierra-leone-dancing-picture-id649608864?k=20&m=649608864&s=612x612&w=0&h=NwaJtzCRfuTLobh6SHGLhSNjL1YYS1UtpkFIDLxM6Bw=) no-repeat center;
     background-size: cover;
 }
 .csslider>ul>li:last-child {
-    background: url(../images/ban4.jpg) no-repeat center;
+    background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/goddess-braids-1566317909.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -704,8 +704,8 @@ h3.heading {
 }
 
 .title-desc a.btn {
-       background-color: #ffc905;
-    border-color: #ffc905;
+       background-color: #FFC0CB;
+    border-color: #FFC0CB;
     color: #000;
     padding: 0.8em 2em;
     border-radius: 4px;
@@ -969,7 +969,7 @@ a.t-icon span {
 }
 
 .pricing-title {
-    color: #FFC0CB;
+    color: #fff;
 }
 
 .padding h3 {
@@ -1179,65 +1179,7 @@ a.w3pvt_google {
 }
 
 /*-- //contact --*/
-/*-- subscribe --*/
-subscribe form {
-    border: 1px solid #808080;
-    width: 80%;
-    margin-top: 10px;
-}
-.subscribe form input[type="email"] {
-    outline: none;
-    padding: 15px 25px;
-    color: #333;
-    font-size: 15px;
-    width: 90%;
-    border: none;
-    background: #fff;
-    letter-spacing: 1px;
-}
-.subscribe button.btn1 {
-    color: #fff;
-    border: none;
-    padding: 13px 0;
-    outline: none;
-    text-align: center;
-    text-decoration: none;
-    background: #333;
-    cursor: pointer;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    transition: 0.5s all;
-    float: right;
-    width: 10%;
-}
 
-.subscribe form {
-    width: 80%;
-    margin-top: 10px;
-}
-.subscribe h3 {
-    font-size: 40px;
-    color: #fff;
-    letter-spacing: 1px;
-}
-.subscribe-left {
-	background: #ffc905;
-}
-.subscribe-right {
-    background: #f6f6f6;
-}
-.news-icon {
-    width: 20%;
-	text-align: center;
-}
-.news-icon span.fa {
-    color: #fff;
-    font-size: 55px;
-    margin-top: 20px;
-}
-/*-- //subscribe --*/
 /* footer */
 
 .footer-content {
