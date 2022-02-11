@@ -34,11 +34,11 @@ class Navbar extends Component {
                   <li class="mr-lg-3 mr-2 p-0">
                     {/* <!-- First Tier Drop Down --> */}
                     <label for="drop-2" class="toggle">
-                      Dropdown{" "}
+                      Our Products{" "}
                       <span class="fa fa-angle-down" aria-hidden="true"></span>{" "}
                     </label>
-                    <a href="#">
-                      Dropdown{" "}
+                    <a href="/">
+                      
                       <span class="fa fa-angle-down" aria-hidden="true"></span>
                     </a>
                     <input type="checkbox" id="drop-2" />
@@ -47,15 +47,15 @@ class Navbar extends Component {
                         <Link to="/services">Services</Link>
                       </li>
                       <li>
-                        <Link to="/single">Single</Link>
+                        <Link to="/gallery">Gallery</Link>
                       </li>
                     </ul>
                   </li>
                   <li class="mr-lg-3 mr-2">
-                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/policy">Policy</Link>
                   </li>
                   <li class="mr-lg-3 mr-2">
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact">Book Appointment</Link>
                   </li>
                 </ul>
               </nav>

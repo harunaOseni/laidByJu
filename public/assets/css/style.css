@@ -1005,7 +1005,7 @@ h3.tittle.two span {
 
 h3.tittle.order {
     font-size: 1.6em;
-    color: #ffc905;
+    color: #FFC0CB;
     font-weight: 600;
 }
 
@@ -1023,9 +1023,9 @@ h4.tittle {
    
 }
 .read-more a {
-         background-color: #ffc905;
-    border-color: #ffc905;
-    color: #000;
+         background-color: #FFC0CB;
+    border-color: #FFC0CB;
+    color: #ffff;
     padding: 0.8em 2em;
     border-radius: 4px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
@@ -1042,40 +1042,6 @@ h4.tittle {
 }
 /*-- //order-sec --*/
 
-/*-- /testimonials --*/
-
-#testimonials {
-    background: rgb(239, 255, 255);
-}
-
-.test-info h3 {
-    font-size: 0.9em;
-    color: #1e272e;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
-.test-img img {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -moz-border-radius: 50%;
-    padding: 4px;
-    background: rgba(30, 39, 46, 0.12);
-    margin-top: 1em;
-}
-
-.mobl-footer.test-soc ul li {
-    display: inline-block;
-    margin: 0 0.3em;
-}
-
-.mobl-footer.test-soc ul li a span {
-    color: #1e272e;
-}
-
-/*-- //testimonials --*/
 /*-- /single-page --*/
 .content-sing-w3ls h4 {
     color: #555;
