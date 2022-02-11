@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Footer extends Component {
   render() {
+    const year = new Date().getFullYear();
     return (
       <footer class="footer-content">
         <div class="layer footer">
@@ -9,16 +10,9 @@ class Footer extends Component {
             <div class="row footer-top-inner-w3ls">
               <div class="col-lg-4 col-md-6 footer-top ">
                 <h2>
-                  <a href="index.html">Men spa</a>
+                  <a href="index.html" class="salon-name">LaidByJu</a>
                 </h2>
-                <p class="my-3">
-                  Donec consequat sam libero tempore, cum soluta nobis est
-                  eligendi optio cumque nihil impedit quo minus
-                </p>
-                <p>
-                  Id quod possimusapien ut leo cursus rhoncus. Nullam dui mi,
-                  vulputate ac metus at, semper varius orci.
-                </p>
+               
               </div>
               <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
                 <div class="footer-w3pvt">
@@ -43,17 +37,19 @@ class Footer extends Component {
                   <hr />
                   <div class="last-w3ls-contact">
                     <p>
-                      <a href="mailto:example@email.com">info@example.com</a>
+                      <a href="mailto:harunaoseni23@email.com">
+                        jo715727@gmail.com
+                      </a>
                     </p>
                   </div>
                   <div class="last-w3ls-contact my-2">
-                    <p>+ 456 123 7890</p>
+                    <p>+ 832 406 5901</p>
                   </div>
                   <div class="last-w3ls-contact">
                     <p>
-                      + 90 nsequursu dsdesdc,
+                      San Antonio,
                       <br />
-                      xxx Honey State 049436.
+                      Texas
                     </p>
                   </div>
                 </div>
@@ -61,8 +57,8 @@ class Footer extends Component {
             </div>
 
             <p class="copy-right-grids text-li text-center my-sm-4 my-4">
-              © 2019 Men spa. All Rights Reserved | Design by
-              <a href="http://w3layouts.com/"> W3layouts </a>
+              ©{year + " "}
+              LaidbyJu. All Rights Reserved
             </p>
             <div class="w3ls-footer text-center mt-4">
               <ul class="list-unstyled w3ls-icons">
@@ -77,13 +73,12 @@ class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <span class="fa fa-dribbble"></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="fa fa-vk"></span>
+                  <a
+                    href="https://www.instagram.com/laidbyju/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="fa fa-instagram"></span>
                   </a>
                 </li>
               </ul>

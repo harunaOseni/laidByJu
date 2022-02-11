@@ -95,7 +95,7 @@ a.navbar-brand {
     font-family: 'Billabong', sans-serif;                                     
 }
 
-/*-- //header --*/
+/*-- header --*/
 
 
 /*-- banner --*/
@@ -675,7 +675,7 @@ li > a:only-child:after { content: ''; }
 	}
 
 }
-/*-- // header --*/
+/*-- header --*/
 h3.heading {
     font-size: 40px;
     text-transform: uppercase;
@@ -1276,12 +1276,12 @@ subscribe form {
 }
 
 hr {
-    border-top: 1px solid rgba(251, 247, 247, 0.1);
+    border-top: 1px solid rgba(59, 28, 28, 0.1);
 }
 
 .layer.footer {
     min-height: 28em;
-    background: rgba(0, 0, 0, 0.82);
+    background: rgb(172, 150, 150);
 }
 
 .footer-top-inner-w3ls {
@@ -1293,7 +1293,7 @@ hr {
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 600;
-    color: #ffc80a;
+    color: #FFC0CB;
 }
 
 /* footer grids */
