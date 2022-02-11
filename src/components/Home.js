@@ -115,7 +115,7 @@ class Home extends Component {
         //{" "}
         {/* <!-- //banner -->
 //  <!-- banner bottom grids --> */}
-        <section class="content-info py-5" id="about">
+        {/* <section class="content-info py-5" id="about">
           <div class="container py-md-5">
             <h3 class="heading text-center mb-3 mb-sm-5">About us</h3>
 
@@ -145,12 +145,12 @@ class Home extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         //{" "}
         {/* <!-- //banner bottom grids -->
 
 //  <!-- /services --> */}
-        <section class="services py-5" id="services">
+        {/* <section class="services py-5" id="services">
           <div class="container py-md-5">
             <h3 class="heading text-center mb-3 mb-sm-5">Services</h3>
             <div class="row ab-info">
@@ -264,7 +264,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* // <!-- /services -->
  
 	// <!-- pricing -->  */}

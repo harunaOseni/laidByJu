@@ -964,6 +964,10 @@ a.t-icon span {
     position: relative;
 }
 
+.pricing {
+    background: rgba(24, 22, 22, 0.905);
+}
+
 .pricing-title {
     color: #FFC0CB;
 }
@@ -996,7 +1000,7 @@ a.t-icon span {
 /*-- /order-sec --*/
 
 .order-sec {
-    background: #000;
+    background: rgba(0, 0, 0, 0.775);
 }
 
 h3.tittle span,
