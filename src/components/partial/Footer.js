@@ -10,9 +10,10 @@ class Footer extends Component {
             <div class="row footer-top-inner-w3ls">
               <div class="col-lg-4 col-md-6 footer-top ">
                 <h2>
-                  <a href="index.html" class="salon-name">LaidByJu</a>
+                  <a href="index.html" class="salon-name">
+                    LaidByJu
+                  </a>
                 </h2>
-               
               </div>
               <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
                 <div class="footer-w3pvt">
@@ -20,13 +21,13 @@ class Footer extends Component {
                   <hr />
                   <ul class="list-info-w3pvt last-w3ls-contact mt-lg-4">
                     <li>
-                      <p> Monday - Friday 08.00 am - 10.00 pm</p>
+                      <p> Monday - Friday 04.00 pm - 10.00 pm</p>
                     </li>
                     <li class="my-2">
-                      <p>Saturday 08.00 am - 10.00 pm</p>
+                      <p>Saturday 02.00 pm - 10.00 pm</p>
                     </li>
                     <li class="my-2">
-                      <p>Sunday 08.00 am - 10.00 pm</p>
+                      <p>Sunday 02.00 pm - 10.00 pm</p> 
                     </li>
                   </ul>
                 </div>
@@ -63,12 +64,12 @@ class Footer extends Component {
             <div class="w3ls-footer text-center mt-4">
               <ul class="list-unstyled w3ls-icons">
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/laidbyju/">
                     <span class="fa fa-facebook-f"></span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/laidbyju/">
                     <span class="fa fa-twitter"></span>
                   </a>
                 </li>

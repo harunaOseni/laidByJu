@@ -24,9 +24,9 @@ class Home extends Component {
                           We Create and Renovate Hair Style Trends
                         </h2>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. It has survived not only five
-                          centuries.
+                          Laid By Ju was founded by an ambitious 19 year old on
+                          a mission to deliver the best styling experience to
+                          every individual.
                         </p>
 
                         <Link to="/contact" class="btn">
@@ -43,15 +43,15 @@ class Home extends Component {
                     <div class="banner-text">
                       <div class="container">
                         <h4 class="movetxt agile-title text-capitalize">
-                          We Help to grow your hair as well beard{" "}
+                          We make braids never seen before{" "}
                         </h4>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. It has survived not only five
-                          centuries.
+                          At Laid By Ju our specialties in braids are some of
+                          the top 1% in the continent, our customers experience
+                          never seen before braids styling.
                         </p>
                         <Link to="/contact" class="btn">
-                          Get appointment
+                          Book appointment
                         </Link>
                       </div>
                     </div>
@@ -64,15 +64,15 @@ class Home extends Component {
                     <div class="banner-text">
                       <div class="container">
                         <h2 class="movetxt agile-title text-capitalize">
-                          We Design and Create Hair Style Latest
+                          We make for one, we make for all, male included
                         </h2>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. It has survived not only five
-                          centuries.
+                          At Laid by Ju we are laser focused on providing the
+                          best hair experience to every customer, and that
+                          includes males.
                         </p>
                         <Link to="/contact" class="btn">
-                          Get appointment
+                          Book appointment
                         </Link>
                       </div>
                     </div>
@@ -85,15 +85,15 @@ class Home extends Component {
                     <div class="banner-text">
                       <div class="container">
                         <h4 class="movetxt agile-title text-capitalize">
-                          We design latest trending haircuts{" "}
+                          We provide and design variety of styles{" "}
                         </h4>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. It has survived not only five
-                          centuries.
+                          Our commitment to providing the best hair experience
+                          with creative styles for our customers remains
+                          unmatched.
                         </p>
                         <Link to="/contact" class="btn">
-                          Get appointment
+                          Book appointment
                         </Link>
                       </div>
                     </div>
@@ -112,9 +112,7 @@ class Home extends Component {
           </div>
         </div>
 
-
- 
-	{/* <!-- pricing -->  */}
+        {/* <!-- pricing -->  */}
         <section class="pricing py-5">
           <div class="container py-md-5">
             <h3 class="heading text-capitalize text-center mb-3 mb-sm-5 pricing-title">
@@ -702,7 +700,7 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
-				  <div class="menu-item mt-4">
+                  <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
                         <h6>Color mix</h6>
