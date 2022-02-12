@@ -701,12 +701,13 @@ h3.heading {
   font-weight: 800;
   letter-spacing: 3px;
 }
+
 .breadcrumb-item {
   letter-spacing: 2px;
 }
 /*-- inner page banner --*/
 .inner-page-banner {
-  background: url(../images/ban1.jpg) no-repeat;
+  background: url(https://s.hdnux.com/photos/01/16/31/00/20549634/3/rawImage.jpg) no-repeat;
   background-size: cover;
   min-height: 300px;
   position: relative;
@@ -721,6 +722,7 @@ h3.heading {
   opacity: 0.4;
   background: #000;
 }
+
 
 .title-desc a.btn {
   background-color: #ffc0cb;

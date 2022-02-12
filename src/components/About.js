@@ -7,8 +7,7 @@ class About extends Component {
     return (
       <div>
         {/* <!-- banner --> */}
-        {/* <section class="inner-page-banner" id="home">
-</section> */}
+        <section class="inner-page-banner" id="home"></section>
         {/* <!-- //banner -->
 <!-- page details --> */}
         <div class="breadcrumb-agile">
@@ -25,51 +24,27 @@ class About extends Component {
 	<!--about-mid --> */}
         <section class="banner-bottom py-5" id="exp">
           <div class="container py-md-5">
-            <h3 class="heading text-center mb-3 mb-sm-5">About More</h3>
+            <h3 class="heading text-center mb-3 mb-sm-5">About Us</h3>
             <div class="row mid-grids mt-lg-5 mt-3">
               <div class="col-md-5 content-w3pvt-img">
-                <img src="assets/images/ab1.jpg" alt="" class="img-fluid" />
+                <img
+                  src={require("../../public/assets/images/logo.PNG")}
+                  alt=""
+                  class="img-fluid"
+                />
               </div>
               <div class="col-md-7 content-left-bottom entry-w3ls-info text-left mt-3">
-                <h5 class="mt-1">CLASSIC HAIR STYLING </h5>
-                <h4>
-                  real men go to
-                  <br />
-                  real Men spas
-                </h4>
                 <p class="mt-2 text-left">
-                  Integer pulvinar leo id viverra feugiat.Pellentesque libero
-                  justo, semper at tempus vel, ultrices in sed ligula. Nulla
-                  uter sollicitudin velit. Sed porttitor orci vel fermentum elit
-                  maximus. Curabitur ut turpis massa in condimentum libero.
-                  Pellentesque maximus Pellentesque libero justo Nulla uter
-                  sollicitudin velit. Sed porttitor orci vel ferm semper at vel,
-                  ultrices in ligula semper at vel.Curabitur ut turpis massa in
-                  condimentum libero.
+                  Founded by Judith, a 19 years old professional stylist, Laid
+                  By Ju is dedicated to remaining one of the top hair salons in
+                  the San Antonio area, we strive for excellence in everything
+                  we do. At the Laid By Ju, we have hand-selected a team of
+                  experienced stylists who never fail to consistently exceed
+                  their clients expectations. When you visit our salon, you can
+                  always expect to receive the same thing: a superior hair
+                  making experience and treatment from one of the best hair
+                  stylists in San Antonio.
                 </p>
-              </div>
-            </div>
-            <div class="row mid-grids mt-lg-5 mt-3 py-3">
-              <div class="col-md-7 content-left-bottom entry-w3ls-info text-left mt-3">
-                <h5 class="mt-1">CLASSIC BEARD STYLING</h5>
-                <h4>
-                  checkout hottest
-                  <br />
-                  beard styling
-                </h4>
-                <p class="mt-2 text-left">
-                  Integer pulvinar leo id viverra feugiat.Pellentesque libero
-                  justo, semper at tempus vel, ultrices in sed ligula. Nulla
-                  uter sollicitudin velit. Sed porttitor orci vel fermentum elit
-                  maximus. Curabitur ut turpis massa in condimentum libero.
-                  Pellentesque maximus Pellentesque libero justo Nulla uter
-                  sollicitudin velit. Sed porttitor orci vel ferm semper at vel,
-                  ultrices in ligula semper at vel.Curabitur ut turpis massa in
-                  condimentum libero.
-                </p>
-              </div>
-              <div class="col-md-5 content-w3pvt-img mt-lg-0 mt-3">
-                <img src="assets/images/ab2.jpg" alt="" class="img-fluid" />
               </div>
             </div>
           </div>
