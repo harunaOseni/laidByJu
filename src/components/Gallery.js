@@ -60,7 +60,7 @@ class Gallery extends Component {
                 <div class="col-md-4 col-sm-6 gal-img">
                   <a href="#gal5">
                     <img
-                      src="assets/gallery/style5.jpg"
+                      src="assets/gallery/style8.jpg"
                       alt="aegis"
                       class="img-fluid mt-4"
                     />
@@ -127,7 +127,7 @@ class Gallery extends Component {
               <div id="gal5" class="popup-effect">
                 <div class="popup">
                   <img
-                    src="assets/gallery/style5.jpg"
+                    src="assets/gallery/style8.jpg"
                     alt="Popupimage"
                     class="img-fluid mt-4"
                   />

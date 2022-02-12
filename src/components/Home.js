@@ -21,7 +21,7 @@ class Home extends Component {
                     <div class="banner-text">
                       <div class="container">
                         <h2 class="movetxt agile-title text-capitalize">
-                          We Create and Renovate Hair Style Trends
+                          We Create and Renovate The Best Hair Experience
                         </h2>
                         <p>
                           Laid By Ju was founded by an ambitious 19 year old on
