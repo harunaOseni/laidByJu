@@ -10,7 +10,7 @@ class Navbar extends Component {
               <h1>
                 <Link to="/" class="navbar-brand logo salon-name">
                   <img
-                    src= {require("../../../public/assets/images/logo.PNG")}
+                    src={require("../../../public/assets/images/logo.PNG")}
                     alt=""
                     class="salon-logo"
                   ></img>
@@ -38,14 +38,10 @@ class Navbar extends Component {
                       <span class="fa fa-angle-down" aria-hidden="true"></span>{" "}
                     </label>
                     <a href="/">
-                      
                       <span class="fa fa-angle-down" aria-hidden="true"></span>
                     </a>
                     <input type="checkbox" id="drop-2" />
                     <ul class="inner-dropdown">
-                      <li>
-                        <Link to="/services">Services</Link>
-                      </li>
                       <li>
                         <Link to="/gallery">Gallery</Link>
                       </li>
