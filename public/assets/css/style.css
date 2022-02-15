@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 @import url("http://fonts.cdnfonts.com/css/billabong");
 
 html,
@@ -924,8 +918,8 @@ li.breadcrumb-item a {
   color: #000;
 }
 
-/* //popup */
-/* //gallery page */
+
+/* gallery page */
 
 /*--/team--*/
 
@@ -1136,15 +1130,7 @@ a.w3pvt_twitter {
   background: #1da1f2;
 }
 
-a.w3pvt_dribble {
-  background: #ea4c89;
-}
-
-a.w3pvt_google {
-  background: #f44336;
-}
-
-/* //social-icons */
+/* social-icons */
 /*-- //single-page --*/
 /*-- /contact --*/
 .map-w3layouts iframe {
@@ -1322,7 +1308,7 @@ h3.w3pvt_title {
   color: #ffc0cb;
 }
 
-/* //footer */
+/* footer */
 
 /* copyright */
 
@@ -1335,7 +1321,7 @@ p.copy-right-grids a {
   color: #fff;
 }
 
-/* //copyright */
+/* copyright */
 
 a.move-top {
   text-align: center;
