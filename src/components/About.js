@@ -38,7 +38,7 @@ class About extends Component {
                   Founded by Judith, a 19 years old professional stylist, Laid
                   By Ju is dedicated to remaining one of the top hair salons in
                   the San Antonio area, we strive for excellence in everything
-                  we do. At the Laid By Ju, we have hand-selected a team of
+                  we do. At Laid By Ju, we have hand-selected a team of
                   experienced stylists who never fail to consistently exceed
                   their clients expectations. When you visit our salon, you can
                   always expect to receive the same thing: a superior hair
