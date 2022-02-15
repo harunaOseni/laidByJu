@@ -707,7 +707,8 @@ h3.heading {
 }
 /*-- inner page banner --*/
 .inner-page-banner {
-  background: url(https://s.hdnux.com/photos/01/16/31/00/20549634/3/rawImage.jpg) no-repeat;
+  background: url(https://s.hdnux.com/photos/01/16/31/00/20549634/3/rawImage.jpg)
+    no-repeat;
   background-size: cover;
   min-height: 300px;
   position: relative;
@@ -723,6 +724,15 @@ h3.heading {
   background: #000;
 }
 
+.booked-button {
+  background: #ffc0cb;
+  color: #333;
+}
+
+.booked-button:hover {
+  background: #ffc0cb;
+  color: #fff;
+}
 
 .title-desc a.btn {
   background-color: #ffc0cb;
@@ -834,7 +844,8 @@ li.breadcrumb-item a {
 }
 .stats-count,
 .clents {
-  background: url(https://zaineey.com/wp-content/uploads/2020/09/cute-braided-hairstyles-1.jpg) no-repeat center;
+  background: url(https://zaineey.com/wp-content/uploads/2020/09/cute-braided-hairstyles-1.jpg)
+    no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -847,7 +858,7 @@ li.breadcrumb-item a {
 .number-wthree-info h5 {
   font-size: 43px;
   font-weight: 700;
-  color: #FFC0CB;
+  color: #ffc0cb;
 }
 
 .blog-date-grid ul li a,
@@ -1182,6 +1193,13 @@ a.w3pvt_google {
   font-size: 0.9em;
   letter-spacing: 2px;
   font-weight: 600;
+  -moz-box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.btn.submit:hover {
+  background: #e9adb7;
+  color: #000;
   -moz-box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);

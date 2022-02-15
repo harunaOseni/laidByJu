@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [successfull, setSuccessfull] = useState(false);
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -12,7 +13,7 @@ const Contact = () => {
   const form = useRef(null);
   const [knotless, setKnotless] = useState([
     "Knotless",
-    "Waist Length (Smedium) $200",
+    "Waist Length (Smedium) $200 ",
     "Waist Length (Small) $220",
     "Waist Length (Medium) $180",
     "Waist Length (Large) $160",
@@ -152,172 +153,210 @@ const Contact = () => {
       .catch((error) => {
         console.log(error.text);
       });
+
+    setEmail("");
+    setFirstName("");
+    setLastName("");
+    setTime("");
+    setDate("");
+    setPhone("");
+    setKnotlessVal("Knotless");
+    setBoysVal("Boys");
+    setTwistVal("Twists");
+    setOthersVal("Others");
+    setExtrasVal("Extras");
+    setSuccessfull(true);
   };
 
   return (
     <div>
-      <section class="inner-page-banner" id="home"></section>
-      <div class="breadcrumb-agile">
-        <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item">
-            <Link to="/">Home</Link>
-          </li>
-          <li class="breadcrumb-item active" aria-current="page">
-            Book Appointment
-          </li>
-        </ol>
-      </div>
-      <section class="content-info py-5">
-        <div class="container py-md-5">
-          <div class="text-center px-lg-5">
-            <h3 class="heading text-center mb-3 mb-sm-5">Book Appointment</h3>
+      {successfull == false ? (
+        <>
+          <section class="inner-page-banner" id="home"></section>
+          <div class="breadcrumb-agile">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item">
+                <Link to="/">Home</Link>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Book Appointment
+              </li>
+            </ol>
           </div>
-          <div class="contact-w3pvt-form mt-5">
-            <form
-              class="w3layouts-contact-fm"
-              method="post"
-              ref={form}
-              onSubmit={handleSubmit}
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="form-group">
-                    <label>First Name</label>
-                    <input
-                      class="form-control"
-                      type="text"
-                      name="First_Name"
-                      placeholder=""
-                      required="true"
-                      value={firstName}
-                      onChange={handleFirstName}
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label>Last Name</label>
-                    <input
-                      class="form-control"
-                      type="text"
-                      name="Last_Name"
-                      placeholder=""
-                      required="true"
-                      value={lastName}
-                      onChange={handleLastName}
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label>Email</label>
-                    <input
-                      class="form-control"
-                      type="email"
-                      name="Email"
-                      placeholder=""
-                      required="true"
-                      value={email}
-                      onChange={handleEmail}
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label>Date</label>
-                    <input
-                      class="form-control"
-                      type="date"
-                      name="Date"
-                      placeholder=""
-                      required="true"
-                      value={date}
-                      onChange={handleDate}
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label>Time</label>
-                    <input
-                      class="form-control"
-                      type="time"
-                      name="Time"
-                      placeholder=""
-                      required="true"
-                      value={time}
-                      onChange={handleTime}
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label>Phone</label>
-                    <input
-                      class="form-control"
-                      type="number"
-                      name="Phone"
-                      placeholder=""
-                      required="true"
-                      value={phone}
-                      onChange={handlePhone}
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label>Service</label>
-                    <select
-                      class="form-select form-control mb-2"
-                      aria-label="Default select example"
-                      onChange={handleKnotless}
-                      name="Knotless"
-                    >
-                      {/* <option selected>Knotless</option> */}
-                      {knotless.map((item) => (
-                        <option value={item}>{item}</option>
-                      ))}
-                    </select>
-                    <select
-                      class="form-select form-control mb-2"
-                      aria-label="Default select example"
-                      onChange={handleBoys}
-                      name="Boys"
-                    >
-                      {boys.map((item) => (
-                        <option value={item}>{item}</option>
-                      ))}
-                    </select>
-                    <select
-                      class="form-select form-control mb-2"
-                      aria-label="Default select example"
-                      onChange={handleTwist}
-                      name="Twists"
-                    >
-                      {twist.map((item) => (
-                        <option value={item}>{item}</option>
-                      ))}
-                    </select>
-                    <select
-                      class="form-select form-control mb-2"
-                      aria-label="Default select example"
-                      onChange={handleOthers}
-                      name="Others"
-                    >
-                      {others.map((item) => (
-                        <option value={item}>{item}</option>
-                      ))}
-                    </select>
-                    <select
-                      class="form-select form-control mb-2"
-                      aria-label="Default select example"
-                      onChange={handleExtras}
-                      name="Extras"
-                    >
-                      {extras.map((item) => (
-                        <option value={item}>{item}</option>
-                      ))}
-                    </select>
-                  </div>
-                  <div class="form-group mt-3 float-right">
-                    <button type="submit" class="btn submit">
-                      Submit
-                    </button>
-                  </div>
-                </div>
+          <section class="content-info py-5">
+            <div class="container py-md-5">
+              <div class="text-center px-lg-5">
+                <h3 class="heading text-center mb-3 mb-sm-5">
+                  Book Appointment
+                </h3>
               </div>
-            </form>
-          </div>
+              <div class="contact-w3pvt-form mt-5">
+                <form
+                  class="w3layouts-contact-fm"
+                  method="post"
+                  ref={form}
+                  onSubmit={handleSubmit}
+                >
+                  <div class="row">
+                    <div class="col">
+                      <div class="form-group">
+                        <label>First Name</label>
+                        <input
+                          class="form-control"
+                          type="text"
+                          name="First_Name"
+                          placeholder=""
+                          required="true"
+                          value={firstName}
+                          onChange={handleFirstName}
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label>Last Name</label>
+                        <input
+                          class="form-control"
+                          type="text"
+                          name="Last_Name"
+                          placeholder=""
+                          required="true"
+                          value={lastName}
+                          onChange={handleLastName}
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label>Email</label>
+                        <input
+                          class="form-control"
+                          type="email"
+                          name="Email"
+                          placeholder=""
+                          required="true"
+                          value={email}
+                          onChange={handleEmail}
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label>Date</label>
+                        <input
+                          class="form-control"
+                          type="date"
+                          name="Date"
+                          placeholder=""
+                          required="true"
+                          value={date}
+                          onChange={handleDate}
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label>Time</label>
+                        <input
+                          class="form-control"
+                          type="time"
+                          name="Time"
+                          placeholder=""
+                          required="true"
+                          value={time}
+                          onChange={handleTime}
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label>Phone</label>
+                        <input
+                          class="form-control"
+                          type="number"
+                          name="Phone"
+                          placeholder=""
+                          required="true"
+                          value={phone}
+                          onChange={handlePhone}
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label>Service</label>
+                        <select
+                          class="form-select form-control mb-2"
+                          aria-label="Default select example"
+                          onChange={handleKnotless}
+                          name="Knotless"
+                        >
+                          {/* <option selected>Knotless</option> */}
+                          {knotless.map((item) => (
+                            <option value={item}>{item}</option>
+                          ))}
+                        </select>
+                        <select
+                          class="form-select form-control mb-2"
+                          aria-label="Default select example"
+                          onChange={handleBoys}
+                          name="Boys"
+                        >
+                          {boys.map((item) => (
+                            <option value={item}>{item}</option>
+                          ))}
+                        </select>
+                        <select
+                          class="form-select form-control mb-2"
+                          aria-label="Default select example"
+                          onChange={handleTwist}
+                          name="Twists"
+                        >
+                          {twist.map((item) => (
+                            <option value={item}>{item}</option>
+                          ))}
+                        </select>
+                        <select
+                          class="form-select form-control mb-2"
+                          aria-label="Default select example"
+                          onChange={handleOthers}
+                          name="Others"
+                        >
+                          {others.map((item) => (
+                            <option value={item}>{item}</option>
+                          ))}
+                        </select>
+                        <select
+                          class="form-select form-control mb-2"
+                          aria-label="Default select example"
+                          onChange={handleExtras}
+                          name="Extras"
+                        >
+                          {extras.map((item) => (
+                            <option value={item}>{item}</option>
+                          ))}
+                        </select>
+                      </div>
+                      <div class="form-group mt-3 float-right">
+                        <button type="submit" class="btn submit">
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </>
+      ) : (
+        <div class="jumbotron bg-white">
+          <h1 class="display-4 mt-5">Appointment Booked!</h1>
+          <p class="lead">
+            Thank you for booking an appointment with us. A member of our team
+            will contact you shortly.
+          </p>
+          <hr class="my-4" />
+          <p>
+            In the meantime, you can check out our gallery to find out what
+            we're made of!
+          </p>
+          <p class="lead">
+            {/* eslint-disable-next-line */}
+            <a class="btn  btn-lg booked-button" href="/gallery" role="button">
+              Gallery
+            </a>
+          </p>
         </div>
-      </section>
+      )}
 
       <div class="map-w3layouts">
         <iframe
