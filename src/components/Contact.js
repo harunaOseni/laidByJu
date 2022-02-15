@@ -1,14 +1,87 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-  const [service, setService] = useState("");
   const [time, setTime] = useState("");
   const [date, setDate] = useState("");
   const [phone, setPhone] = useState("");
+  const form = useRef(null);
+  const [knotless, setKnotless] = useState([
+    "Knotless",
+    "Waist Length (Smedium) $200",
+    "Waist Length (Small) $220",
+    "Waist Length (Medium) $180",
+    "Waist Length (Large) $160",
+    "Butt Length (Smedium) $220",
+    "Butt Length (Small) $260",
+    "Butt Length (Medium) $200",
+    "Butt Length (Large) $180",
+    "Knee Length (Smedium) $300",
+    "Knee Length (Small) $320",
+    "Knee Length (Medium) $260",
+    "Knee Length (Large) $230",
+    "Hip Length (Smedium) $280",
+    "Hip Length (Small) $300",
+    "Hip Length (Medium) $240",
+    "Hip Length (Large) $220",
+    "Crisscross Knotless (Smedium) $240",
+    "Crisscross Knotless (Small) $260",
+    "Crisscross Knotless (Medium) $220",
+    "Crisscross Knotless (Large) $200",
+    "Box Braids Buttlength (Smedium) $220",
+    "Box Braids Buttlength (Small) $240",
+    "Box Braids Buttlength (Medium) $200",
+    "Box Braids Buttlength (Large) $180",
+    "Box Braids waist length (Smedium) $200",
+    "Box Braids waist length (Small) $220",
+    "Box Braids waist length (Medium) $180",
+    "Box Braids waist length (Large) $160",
+  ]);
+  const [knotlessVal, setKnotlessVal] = useState("");
+  const [boys, setBoys] = useState([
+    "Boys",
+    "Twists $60",
+    "Travis Scott Braids $70",
+    "Cornrows (regular) $60",
+    "Retwist $60",
+  ]);
+  const [boysVal, setBoysVal] = useState("");
+  const [twist, setTwist] = useState([
+    "Twists",
+    "Marley Twists (Smedium) $200",
+    "Marley Twists (Small) $220",
+    "Marley Twists (Medium) $180",
+    "Marley Twists (Large) $160",
+    "Spring Twists (Smedium) $160",
+    "Spring Twists (Small) $180",
+    "Spring Twists (Medium) $120",
+    "Spring Twists (Large) $100",
+  ]);
+  const [twistVal, setTwistVal] = useState("");
+  const [others, setOthers] = useState([
+    "Others",
+    "Coi Leray Braids $120",
+    "Braided Knotless Bob Beads $180",
+    "Braided Box Braids Bob (Heads) $160",
+    "Freestyle $varies",
+    "Extended Faux Loes $180",
+    "Crisscross Extended Faux Loes $200",
+  ]);
+  const [othersVal, setOthersVal] = useState("");
+  const [extras, setExtras] = useState([
+    "Extras",
+    "Adding Hair (Boys) $30",
+    "Adding Beads $40",
+    "Hearts $10",
+    "Triangle Parts $60",
+    "Blow Dry $30",
+    "Color Mix $40",
+  ]);
+  const [extrasVal, setExtrasVal] = useState("");
   const handleEmail = (e) => {
     setEmail(e.target.value);
   };
@@ -18,9 +91,6 @@ const Contact = () => {
   const handleLastName = (e) => {
     setLastName(e.target.value);
   };
-  const handleService = (e) => {
-    setService(e.target.value);
-  };
   const handleTime = (e) => {
     setTime(e.target.value);
   };
@@ -29,6 +99,59 @@ const Contact = () => {
   };
   const handlePhone = (e) => {
     setPhone(e.target.value);
+  };
+
+  const handleKnotless = (e) => {
+    setKnotlessVal(e.target.value);
+  };
+
+  const handleBoys = (e) => {
+    setBoysVal(e.target.value);
+  };
+
+  const handleTwist = (e) => {
+    setTwistVal(e.target.value);
+  };
+
+  const handleOthers = (e) => {
+    setOthersVal(e.target.value);
+  };
+
+  const handleExtras = (e) => {
+    setExtrasVal(e.target.value);
+  };
+
+  const templateParams = {
+    First_Name: firstName,
+    Last_Name: lastName,
+    Email: email,
+    Date: date,
+    Time: time,
+    Phone: phone,
+    Knotless: knotlessVal === "Knotless" ? "None" : knotlessVal,
+    Boys: boysVal === "Boys" ? "None" : boysVal,
+    Twists: twistVal === "Twists" ? "None" : twistVal,
+    Others: othersVal === "Others" ? "None" : othersVal,
+    Extras: extrasVal === "Extras" ? "None" : extrasVal,
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cu1e97m",
+        "template_b3cz0xq",
+        form.current,
+        "user_9n5UgaRWPF1J1VEnHJpox",
+        templateParams
+      )
+      .then((result) => {
+        console.log(result.text);
+      })
+      .catch((error) => {
+        console.log(error.text);
+      });
   };
 
   return (
@@ -51,30 +174,10 @@ const Contact = () => {
           </div>
           <div class="contact-w3pvt-form mt-5">
             <form
-              action={`mailto:jo715727@gmail.com?body=
-                First Name: ${firstName}
-                %0A
-                %0A 
-                Last Name: ${lastName}
-                %0A
-                %0A
-                Email: ${email}
-                %0A
-                %0A
-                Phone: ${phone}
-                %0A
-                %0A
-                Service: ${service}
-                %0A
-                %0A
-                Date: ${date}
-                %0A
-                %0A
-                Time: ${time}&subject=Laid By Ju's Appointment Request
-
-                `}
               class="w3layouts-contact-fm"
               method="post"
+              ref={form}
+              onSubmit={handleSubmit}
             >
               <div class="row">
                 <div class="col">
@@ -83,7 +186,7 @@ const Contact = () => {
                     <input
                       class="form-control"
                       type="text"
-                      name="FirstName"
+                      name="First_Name"
                       placeholder=""
                       required="true"
                       value={firstName}
@@ -95,7 +198,7 @@ const Contact = () => {
                     <input
                       class="form-control"
                       type="text"
-                      name="LastName"
+                      name="Last_Name"
                       placeholder=""
                       required="true"
                       value={lastName}
@@ -152,14 +255,57 @@ const Contact = () => {
                   </div>
                   <div class="form-group">
                     <label>Service</label>
-                    <textarea
-                      class="form-control"
-                      name="Service"
-                      placeholder="Hey there, we believe you have read our services and pricings in the home page, vividly explain to us what service you're looking for."
-                      required="true"
-                      value={service}
-                      onChange={handleService}
-                    ></textarea>
+                    <select
+                      class="form-select form-control mb-2"
+                      aria-label="Default select example"
+                      onChange={handleKnotless}
+                      name="Knotless"
+                    >
+                      {/* <option selected>Knotless</option> */}
+                      {knotless.map((item) => (
+                        <option value={item}>{item}</option>
+                      ))}
+                    </select>
+                    <select
+                      class="form-select form-control mb-2"
+                      aria-label="Default select example"
+                      onChange={handleBoys}
+                      name="Boys"
+                    >
+                      {boys.map((item) => (
+                        <option value={item}>{item}</option>
+                      ))}
+                    </select>
+                    <select
+                      class="form-select form-control mb-2"
+                      aria-label="Default select example"
+                      onChange={handleTwist}
+                      name="Twists"
+                    >
+                      {twist.map((item) => (
+                        <option value={item}>{item}</option>
+                      ))}
+                    </select>
+                    <select
+                      class="form-select form-control mb-2"
+                      aria-label="Default select example"
+                      onChange={handleOthers}
+                      name="Others"
+                    >
+                      {others.map((item) => (
+                        <option value={item}>{item}</option>
+                      ))}
+                    </select>
+                    <select
+                      class="form-select form-control mb-2"
+                      aria-label="Default select example"
+                      onChange={handleExtras}
+                      name="Extras"
+                    >
+                      {extras.map((item) => (
+                        <option value={item}>{item}</option>
+                      ))}
+                    </select>
                   </div>
                   <div class="form-group mt-3 float-right">
                     <button type="submit" class="btn submit">
