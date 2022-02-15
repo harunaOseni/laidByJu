@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
-const Contact = () => {
+const Booking = () => {
   const [successfull, setSuccessfull] = useState(false);
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
@@ -179,7 +179,7 @@ const Contact = () => {
                 <Link to="/">Home</Link>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                Book Appointment
+                Booking
               </li>
             </ol>
           </div>
@@ -370,4 +370,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Booking;

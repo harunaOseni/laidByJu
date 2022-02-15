@@ -5,7 +5,7 @@ import Navbar from "./components/partial/Navbar";
 import Footer from "./components/partial/Footer";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
-import Contact from "./components/Contact";
+import Booking from "./components/Booking";
 import Policy from "./components/Policy";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/gallery" component={Gallery} />
           <Route path='/policy' component={Policy}/>
-          <Route path="/contact" component={Contact} />
+          <Route path="/booking" component={Booking} />
         </Switch>
         <Footer />
       </Router>

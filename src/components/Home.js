@@ -29,7 +29,7 @@ class Home extends Component {
                           every individual.
                         </p>
 
-                        <Link to="/contact" class="btn">
+                        <Link to="/booking" class="btn">
                           Book appointment
                         </Link>
                       </div>
@@ -50,7 +50,7 @@ class Home extends Component {
                           the top 1% in the continent, our customers experience
                           never seen before braids styling.
                         </p>
-                        <Link to="/contact" class="btn">
+                        <Link to="/booking" class="btn">
                           Book appointment
                         </Link>
                       </div>
@@ -71,7 +71,7 @@ class Home extends Component {
                           best hair experience to every customer, and that
                           includes males.
                         </p>
-                        <Link to="/contact" class="btn">
+                        <Link to="/booking" class="btn">
                           Book appointment
                         </Link>
                       </div>
@@ -92,7 +92,7 @@ class Home extends Component {
                           with creative styles for our customers remains
                           unmatched.
                         </p>
-                        <Link to="/contact" class="btn">
+                        <Link to="/booking" class="btn">
                           Book appointment
                         </Link>
                       </div>
@@ -728,7 +728,7 @@ class Home extends Component {
               </h3>
 
               <div class="read-more mx-auto m-0 text-center">
-                <Link to="/contact" class="read-more scroll btn">
+                <Link to="/booking" class="read-more scroll btn">
                   Book An Appointment
                 </Link>
               </div>
