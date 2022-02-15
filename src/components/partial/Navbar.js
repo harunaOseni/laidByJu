@@ -51,7 +51,7 @@ class Navbar extends Component {
                     <Link to="/policy">Policy</Link>
                   </li>
                   <li class="mr-lg-3 mr-2">
-                    <Link to="/contact">Book Appointment</Link>
+                    <Link to="/booking">Book Appointment</Link>
                   </li>
                 </ul>
               </nav>
