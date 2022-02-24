@@ -136,9 +136,7 @@ const Booking = () => {
     Extras: extrasVal === "Extras" ? "None" : extrasVal,
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
+  const handleOwnerEmail = () => {
     emailjs
       .sendForm(
         "service_cu1e97m",
@@ -153,7 +151,11 @@ const Booking = () => {
       .catch((error) => {
         console.log(error.text);
       });
+  };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleOwnerEmail();
     setEmail("");
     setFirstName("");
     setLastName("");
@@ -170,7 +172,7 @@ const Booking = () => {
 
   return (
     <div>
-      {successfull == false ? (
+      {successfull === false ? (
         <>
           <section class="inner-page-banner" id="home"></section>
           <div class="breadcrumb-agile">
