@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
+import TimePicker from "react-time-picker";
 
 const Booking = () => {
   const [successfull, setSuccessfull] = useState(false);
@@ -11,6 +12,7 @@ const Booking = () => {
   const [date, setDate] = useState("");
   const [phone, setPhone] = useState("");
   const form = useRef(null);
+  const [value, onChange] = useState("4:00 PM");
   const [knotless, setKnotless] = useState([
     "Knotless",
     "Waist Length (Smedium) $200 ",
@@ -255,8 +257,10 @@ const Booking = () => {
                           class="form-control"
                           type="time"
                           name="Time"
+                          min="16:00"
+                          max="22:00"
                           placeholder=""
-                          required="true"
+                          required
                           value={time}
                           onChange={handleTime}
                         />
