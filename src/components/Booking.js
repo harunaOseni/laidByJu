@@ -237,6 +237,21 @@ const Booking = () => {
             setOthersVal(othersVal);
             setExtrasVal(extrasVal);
           }
+        } else {
+          handleAppointment();
+          handleOwnerEmail();
+          setEmail("");
+          setFirstName("");
+          setLastName("");
+          setTime("");
+          setDate("");
+          setPhone("");
+          setKnotlessVal("Knotless");
+          setBoysVal("Boys");
+          setTwistVal("Twists");
+          setOthersVal("Others");
+          setExtrasVal("Extras");
+          setSuccessfull(true);
         }
       });
   };
