@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
-import TimePicker from "react-time-picker";
 
 const Booking = () => {
   const [successfull, setSuccessfull] = useState(false);
@@ -138,6 +137,34 @@ const Booking = () => {
     Extras: extrasVal === "Extras" ? "None" : extrasVal,
   };
 
+  const handleAppointment = () => {
+    const data = {
+      Name: firstName + " " + lastName,
+      Appointment: date,
+    };
+
+    fetch(
+      "https://sheet.best/api/sheets/f0cca0db-0a30-49a6-a0cc-1652bfee9e9d",
+      {
+        method: "POST",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    )
+      .then((r) => r.json())
+      .then((data) => {
+        // The response comes here
+        console.log(data);
+      })
+      .catch((error) => {
+        // Errors are reported there
+        console.log(error);
+      });
+  };
+
   const handleOwnerEmail = () => {
     emailjs
       .sendForm(
@@ -157,19 +184,45 @@ const Booking = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    handleOwnerEmail();
-    setEmail("");
-    setFirstName("");
-    setLastName("");
-    setTime("");
-    setDate("");
-    setPhone("");
-    setKnotlessVal("Knotless");
-    setBoysVal("Boys");
-    setTwistVal("Twists");
-    setOthersVal("Others");
-    setExtrasVal("Extras");
-    setSuccessfull(true);
+    // handleOwnerEmail();
+    //check if a user already has an appoitment for that particular date
+    fetch(
+      "https://sheet.best/api/sheets/f0cca0db-0a30-49a6-a0cc-1652bfee9e9d",
+      {
+        method: "GET",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    )
+      .then((r) => r.json())
+      .then((data) => {
+        // The response comes here
+        console.log(data);
+        let appointment = data.filter((app) => {
+          return app.Appointment === date;
+        });
+        if (appointment.length > 0) {
+          alert("Sorry, this date is already booked try another date");
+          setSuccessfull(false);
+        } else {
+          handleAppointment();
+          // handleOwnerEmail();
+          setEmail("");
+          setFirstName("");
+          setLastName("");
+          setTime("");
+          setDate("");
+          setPhone("");
+          setKnotlessVal("Knotless");
+          setBoysVal("Boys");
+          setTwistVal("Twists");
+          setOthersVal("Others");
+          setExtrasVal("Extras");
+          setSuccessfull(true);
+        }
+      });
   };
 
   return (
