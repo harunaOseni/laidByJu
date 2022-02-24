@@ -204,23 +204,39 @@ const Booking = () => {
           return app.Appointment === date;
         });
         if (appointment.length > 0) {
-          alert("Sorry, this date is already booked try another date");
-          setSuccessfull(false);
-        } else {
-          handleAppointment();
-          // handleOwnerEmail();
-          setEmail("");
-          setFirstName("");
-          setLastName("");
-          setTime("");
-          setDate("");
-          setPhone("");
-          setKnotlessVal("Knotless");
-          setBoysVal("Boys");
-          setTwistVal("Twists");
-          setOthersVal("Others");
-          setExtrasVal("Extras");
-          setSuccessfull(true);
+          let squeeze = prompt(
+            "Sorry, this date is already booked try another date or would you like to still squeeze in (Yes/No)?"
+          );
+          if (squeeze === "Yes" || squeeze === "yes") {
+            handleAppointment();
+            handleOwnerEmail();
+            setEmail("");
+            setFirstName("");
+            setLastName("");
+            setTime("");
+            setDate("");
+            setPhone("");
+            setKnotlessVal("Knotless");
+            setBoysVal("Boys");
+            setTwistVal("Twists");
+            setOthersVal("Others");
+            setExtrasVal("Extras");
+            setSuccessfull(true);
+          } else {
+            setSuccessfull(false);
+            alert("Please try another date");
+            setEmail(email);
+            setFirstName(firstName);
+            setLastName(lastName);
+            setTime(time);
+            setDate(date);
+            setPhone(phone);
+            setKnotlessVal(knotlessVal);
+            setBoysVal(boysVal);
+            setTwistVal(twistVal);
+            setOthersVal(othersVal);
+            setExtrasVal(extrasVal);
+          }
         }
       });
   };
