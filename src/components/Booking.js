@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 
 const Booking = () => {
   const [successfull, setSuccessfull] = useState(false);
+  const today = new Date();
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -338,17 +339,31 @@ const Booking = () => {
                       </div>
                       <div class="form-group">
                         <label>Time</label>
-                        <input
-                          class="form-control"
-                          type="time"
-                          name="Time"
-                          min="16:00"
-                          max="18:00"
-                          placeholder=""
-                          required
-                          value={time}
-                          onChange={handleTime}
-                        />
+                        {today.getDay() === 6 || today.getDay() === 0 ? (
+                          <input
+                            class="form-control"
+                            type="time"
+                            name="Time"
+                            min="14:00"
+                            max="18:00"
+                            placeholder=""
+                            required
+                            value={time}
+                            onChange={handleTime}
+                          />
+                        ) : (
+                          <input
+                            class="form-control"
+                            type="time"
+                            name="Time"
+                            min="16:00"
+                            max="18:00"
+                            placeholder=""
+                            required
+                            value={time}
+                            onChange={handleTime}
+                          />
+                        )}
                       </div>
                       <div class="form-group">
                         <label>Phone</label>
