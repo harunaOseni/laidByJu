@@ -342,7 +342,7 @@ const Booking = () => {
                           type="time"
                           name="Time"
                           min="16:00"
-                          max="22:00"
+                          max="18:00"
                           placeholder=""
                           required
                           value={time}
