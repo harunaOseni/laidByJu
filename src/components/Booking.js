@@ -72,6 +72,7 @@ const Booking = () => {
     "Freestyle $varies",
     "Extended Faux Loes $180",
     "Crisscross Extended Faux Loes $200",
+    "Pre-rolled blunt and water bottle $15",
   ]);
   const [othersVal, setOthersVal] = useState("");
   const [extras, setExtras] = useState([
