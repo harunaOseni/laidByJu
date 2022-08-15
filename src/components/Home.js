@@ -130,7 +130,7 @@ class Home extends Component {
                         <h6>Waist length (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$200</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
@@ -142,7 +142,7 @@ class Home extends Component {
                         <h6>Waist length (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$220</h6>
+                        <h6>$240</h6>
                       </div>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ class Home extends Component {
                         <h6>Waist length (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$180</h6>
+                        <h6>$200</h6>
                       </div>
                     </div>
                   </div>
@@ -166,7 +166,7 @@ class Home extends Component {
                         <h6>Waist length (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$160</h6>
+                        <h6>$180</h6>
                       </div>
                     </div>
                   </div>
@@ -178,7 +178,7 @@ class Home extends Component {
                         <h6>Buttlength (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$220</h6>
+                        <h6>$260</h6>
                       </div>
                     </div>
                   </div>
@@ -190,7 +190,7 @@ class Home extends Component {
                         <h6>Buttlength (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$260</h6>
+                        <h6>$280</h6>
                       </div>
                     </div>
                   </div>
@@ -200,7 +200,7 @@ class Home extends Component {
                         <h6>Buttlength (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$200</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
@@ -210,7 +210,7 @@ class Home extends Component {
                         <h6>Buttlength (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$180</h6>
+                        <h6>$200</h6>
                       </div>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ class Home extends Component {
                         <h6>Kneelength (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$300</h6>
+                        <h6>$320</h6>
                       </div>
                     </div>
                   </div>
@@ -230,7 +230,7 @@ class Home extends Component {
                         <h6>Kneelength (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$320</h6>
+                        <h6>$340</h6>
                       </div>
                     </div>
                   </div>
@@ -240,7 +240,7 @@ class Home extends Component {
                         <h6>Kneelength (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$260</h6>
+                        <h6>$280</h6>
                       </div>
                     </div>
                   </div>
@@ -250,7 +250,7 @@ class Home extends Component {
                         <h6>Kneelength (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$230</h6>
+                        <h6>$250</h6>
                       </div>
                     </div>
                   </div>
@@ -260,7 +260,7 @@ class Home extends Component {
                         <h6>hiplength (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$280</h6>
+                        <h6>$300</h6>
                       </div>
                     </div>
                   </div>
@@ -270,7 +270,7 @@ class Home extends Component {
                         <h6>hiplength (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$300</h6>
+                        <h6>$320</h6>
                       </div>
                     </div>
                   </div>
@@ -280,7 +280,7 @@ class Home extends Component {
                         <h6>hiplength (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$240</h6>
+                        <h6>$260</h6>
                       </div>
                     </div>
                   </div>
@@ -290,7 +290,7 @@ class Home extends Component {
                         <h6>hiplength (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$220</h6>
+                        <h6>$240</h6>
                       </div>
                     </div>
                   </div>
@@ -300,7 +300,7 @@ class Home extends Component {
                         <h6>crisscross Knotless (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$240</h6>
+                        <h6>$260</h6>
                       </div>
                     </div>
                   </div>
@@ -310,7 +310,7 @@ class Home extends Component {
                         <h6>crisscross Knotless (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$260</h6>
+                        <h6>$280</h6>
                       </div>
                     </div>
                   </div>
@@ -320,7 +320,7 @@ class Home extends Component {
                         <h6>crisscross Knotless (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$220</h6>
+                        <h6>$240</h6>
                       </div>
                     </div>
                   </div>
@@ -330,7 +330,7 @@ class Home extends Component {
                         <h6>crisscross Knotless (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$200</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
@@ -340,7 +340,7 @@ class Home extends Component {
                         <h6>box braids buttlength (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$220</h6>
+                        <h6>$240</h6>
                       </div>
                     </div>
                   </div>
@@ -350,7 +350,7 @@ class Home extends Component {
                         <h6>box braids buttlength (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$240</h6>
+                        <h6>$260</h6>
                       </div>
                     </div>
                   </div>
@@ -360,7 +360,7 @@ class Home extends Component {
                         <h6>box braids buttlength (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$200</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
@@ -370,7 +370,7 @@ class Home extends Component {
                         <h6>box braids buttlength (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$180</h6>
+                        <h6>$200</h6>
                       </div>
                     </div>
                   </div>
@@ -380,7 +380,7 @@ class Home extends Component {
                         <h6>box braids waist length (smedium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$200</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
@@ -390,7 +390,7 @@ class Home extends Component {
                         <h6>box braids waist length (small)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$220</h6>
+                        <h6>$240</h6>
                       </div>
                     </div>
                   </div>
@@ -400,7 +400,7 @@ class Home extends Component {
                         <h6>box braids waist length (medium)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$180</h6>
+                        <h6>$200</h6>
                       </div>
                     </div>
                   </div>
@@ -410,7 +410,7 @@ class Home extends Component {
                         <h6>box braids waist length (large)</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$160</h6>
+                        <h6>$180</h6>
                       </div>
                     </div>
                   </div>
@@ -618,20 +618,20 @@ class Home extends Component {
                   <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Extended faux loes</h6>
+                        <h6>Extended faux locs</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$180</h6>
+                        <h6>$200</h6>
                       </div>
                     </div>
                   </div>
                   <div class="menu-item mt-4">
                     <div class="row border-dot no-gutters">
                       <div class="col-8 menu-item-name">
-                        <h6>Crisscross extended faux loes</h6>
+                        <h6>Crisscross extended faux locs</h6>
                       </div>
                       <div class="col-4 menu-item-price text-right">
-                        <h6>$200</h6>
+                        <h6>$220</h6>
                       </div>
                     </div>
                   </div>
