@@ -15,34 +15,34 @@ const Booking = () => {
   const [value, onChange] = useState("4:00 PM");
   const [knotless, setKnotless] = useState([
     "Knotless",
-    "Waist Length (Smedium) $200 ",
-    "Waist Length (Small) $220",
-    "Waist Length (Medium) $180",
-    "Waist Length (Large) $160",
-    "Butt Length (Smedium) $220",
-    "Butt Length (Small) $260",
-    "Butt Length (Medium) $200",
-    "Butt Length (Large) $180",
-    "Knee Length (Smedium) $300",
-    "Knee Length (Small) $320",
-    "Knee Length (Medium) $260",
-    "Knee Length (Large) $230",
-    "Hip Length (Smedium) $280",
-    "Hip Length (Small) $300",
-    "Hip Length (Medium) $240",
-    "Hip Length (Large) $220",
-    "Crisscross Knotless (Smedium) $240",
-    "Crisscross Knotless (Small) $260",
-    "Crisscross Knotless (Medium) $220",
-    "Crisscross Knotless (Large) $200",
-    "Box Braids Buttlength (Smedium) $220",
-    "Box Braids Buttlength (Small) $240",
-    "Box Braids Buttlength (Medium) $200",
-    "Box Braids Buttlength (Large) $180",
-    "Box Braids waist length (Smedium) $200",
-    "Box Braids waist length (Small) $220",
-    "Box Braids waist length (Medium) $180",
-    "Box Braids waist length (Large) $160",
+    "Waist Length (Smedium) $220 ",
+    "Waist Length (Small) $240",
+    "Waist Length (Medium) $200",
+    "Waist Length (Large) $180",
+    "Butt Length (Smedium) $240",
+    "Butt Length (Small) $280",
+    "Butt Length (Medium) $220",
+    "Butt Length (Large) $200",
+    "Knee Length (Smedium) $320",
+    "Knee Length (Small) $340",
+    "Knee Length (Medium) $280",
+    "Knee Length (Large) $250",
+    "Hip Length (Smedium) $300",
+    "Hip Length (Small) $320",
+    "Hip Length (Medium) $260",
+    "Hip Length (Large) $240",
+    "Crisscross Knotless (Smedium) $260",
+    "Crisscross Knotless (Small) $280",
+    "Crisscross Knotless (Medium) $240",
+    "Crisscross Knotless (Large) $220",
+    "Box Braids Buttlength (Smedium) $260",
+    "Box Braids Buttlength (Small) $260",
+    "Box Braids Buttlength (Medium) $220",
+    "Box Braids Buttlength (Large) $200",
+    "Box Braids waist length (Smedium) $220",
+    "Box Braids waist length (Small) $240",
+    "Box Braids waist length (Medium) $200",
+    "Box Braids waist length (Large) $180",
   ]);
   const [knotlessVal, setKnotlessVal] = useState("");
   const [boys, setBoys] = useState([
@@ -71,8 +71,8 @@ const Booking = () => {
     "Braided Knotless Bob Beads $180",
     "Braided Box Braids Bob (Heads) $160",
     "Freestyle $varies",
-    "Extended Faux Loes $180",
-    "Crisscross Extended Faux Loes $200",
+    "Extended Faux Locs $200",
+    "Crisscross Extended Faux Locs $220",
     "Pre-rolled blunt and water bottle $15",
   ]);
   const [othersVal, setOthersVal] = useState("");
@@ -344,8 +344,6 @@ const Booking = () => {
                             class="form-control"
                             type="time"
                             name="Time"
-                            min="14:00"
-                            max="18:00"
                             placeholder=""
                             required
                             value={time}
@@ -356,8 +354,6 @@ const Booking = () => {
                             class="form-control"
                             type="time"
                             name="Time"
-                            min="16:00"
-                            max="18:00"
                             placeholder=""
                             required
                             value={time}
